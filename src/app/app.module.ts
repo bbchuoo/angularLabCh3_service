@@ -3,15 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AddformComponent } from './addform/addform.component';
-import { TodoItemsComponent } from './todo-items/todo-items.component';
 import { FormsModule } from '@angular/forms';
+import { HeaderComponent } from './header/header.component';
+import { BodyComponent } from './body/body.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddformComponent,
-    TodoItemsComponent,
+    HeaderComponent,
+    BodyComponent,
   ],
   imports: [
     BrowserModule,
