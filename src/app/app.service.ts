@@ -5,12 +5,12 @@ import { Injectable } from '@angular/core';
 })
 export class AppService {
 
-  data = {name:'alvin',age:'18',gender:'girl'}
-  
-  getData (){
+  data = { name: 'alvin', age: '18', gender: 'girl' }
+
+  getData() {
     return this.data;
   }
-  changeDate(name){
+  changeDate(name) {
     return this.data.name = name;
   }
 }

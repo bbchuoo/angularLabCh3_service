@@ -8,11 +8,11 @@ import { AppService } from '../app.service';
 })
 export class HeaderComponent implements OnInit {
   name;
-  constructor(public appService:AppService) { }
+  constructor(public appService: AppService) { }
 
   ngOnInit() {
   }
-  add(){
+  add() {
     return this.appService.changeDate(this.name)
   }
 }
